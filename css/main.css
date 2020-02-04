@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    background: #F0F4F7;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.custom-logo {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+    color:#fff;
+}
+
+.custom-logo:hover {
+    color: #fff;
+}
+
+
+
+.custom-navbar-nav .nav-item {
+    padding: 0 10px;
+}
+
+.custom-navbar {
+    padding: 25px 16px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-navbar.background{
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.custom-navbar.background .nav-link, .custom-navbar.background .custom-logo {
+    color:#0078ff;
+}
+
+.custom-navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 400px;
+    color:#fff;
+    line-height: 1.5;
+}
+
+.header-wrapper {
+    background: url(../img/intro-bg.jpg) no-repeat ;
+    background-size: cover;
+    
+}
+
+
+.header-banner-wrapper {
+    height: 100vh;
+    flex-flow: row wrap;
+}
+
+
+
+.header-banner-wrapper h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 1.1;
+    flex: 0 0 100%;
+    margin-bottom: 24px;
+}
+
+
+  
+  
+  .snip1135 a {
+    position: relative;
+    
+  }
+  .snip1135 a:before,
+  .snip1135 a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .snip1135 a:before {
+    bottom: 0;
+    display: block;
+    height: 3px;
+    width: 0%;
+    content: "";
+    background-color: #fff;
+  }
+
+  .custom-navbar.background .snip1135 a:before {
+    /* transition: all 0.2s ease-in-out; */
+    background-color:#0078ff;
+  }
+
+
+  
+  .snip1135 a:hover:before,
+  .snip1135 .current a:before {
+    opacity: 1;
+    width: 50%;
+  }
+
+
+
+  .console-underscore {
+    display:inline-block;
+   position:relative;
+   top:-0.14em;
+   left:10px;
+ }
+
+ .console-container { 
+    font-size:40px;
+    color:white;
+    font-weight: 400;
+    
+  }
+/* About Us*/
+
+  .about-us {
+      padding-top: 64px;
+  }
+  
+  .profile-pic img {
+      max-width: 150px;
+  }
+
+  .about-profile {
+    padding: 64px 48px;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
+  }
+  
+
